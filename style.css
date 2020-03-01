@@ -1,0 +1,95 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  body{
+    background: url(ImageBackground.png);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+  }
+  .intro{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+  }
+  .intro p1{
+    color: #fff;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 50px;
+  }
+  .intro p2{
+    color: #FCB371;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 50px;
+  }
+  .intro p3{
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .icon {
+    background: url(IconBali.png);
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50% ,-50%);
+  }
+  .filter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(42, 38, 61, 0.82);
+  }
+  
+  .text{
+    width: 205px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 10px;
+  }
+  .about{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+    top: 75%;
+    left: 44%;
+    width: 150px;
+    height: 40px;
+    font-family: 'Pacifico', sans-serif;
+    background: #FCB371;
+    border: 2px solid #FCB371;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #FCB371;
+    border-radius: 6px;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .reservation{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+    top: 75%;
+    left: 55%;
+    width: 150px;
+    height: 40px;
+    background: #FCB371;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    text-decoration: none;
+  
+  }
